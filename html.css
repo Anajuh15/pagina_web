@@ -1,0 +1,57 @@
+
+button:hover {
+    background-color: rgb(128, 0, 128);
+    color: white;
+}
+
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+
+a:active {
+    color: rgb(124, 0, 108);
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+
+li:nth-child(2) {
+    color: red;
+}
+
+
+li:last-child {
+    color: blue;
+}
+
+input:checked {
+    box-shadow: 0 0 5px rgb(124, 0, 128);
+}
+
+
+input:disabled {
+    background-color: rgb(211, 211, 211);
+}
+
+input:required {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+p:not(:first-child) {
+    background-color: rgba(124, 0, 107, 0.68);
+    font-style: italic;
+}
+
+p:empty {
+    background-color: rgb(124, 0, 128);
+    height: 60px;
+}
+
+p:nth-of-type(2) {
+    color: rgb(124, 0, 128);
+}
